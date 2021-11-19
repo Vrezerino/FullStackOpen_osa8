@@ -1,0 +1,88 @@
+body {
+	font-family: 'Georgia', serif;
+	background-image: url("http://localhost:3000/library.jpg");
+}
+
+a {
+	color:rgb(117, 0, 0);
+	text-decoration: none;
+}
+
+a:hover {
+	color:tomato;
+	text-decoration: underline;
+}
+
+h5 {
+	margin: 0.3em;
+}
+
+div.container {
+	max-width: 500px;
+	margin: auto;
+}
+
+div.nav, div.navigation {
+	text-align: center;
+}
+
+div.notification {
+	color:rgb(117, 0, 0);
+	font-weight: bold;
+}
+
+div.newBook, div.loginForm {
+	padding: 0.5em;
+	background-color: rgb(240, 225, 138);
+	border-radius: 9px;
+}
+
+div.books button {
+	margin-right: 0.2em;
+	background-color:rgb(221, 105, 76);
+}
+
+div.books button:hover {
+	cursor: pointer;
+}
+
+div.genres {
+	font-size: small;
+}
+
+div.editAuthor {
+	margin: auto;
+	width: 50%;
+}
+
+div.editAuthor input {
+	width: fit-content;
+}
+
+section {
+	text-align: center;
+}
+
+td {
+	padding: 0em 1em 0em 1em;
+	border: 0px;
+	background-color: rgb(255, 255, 255);
+}
+
+.logoutBtn:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.logoutBtn, table {
+	margin: auto;
+}
+
+.logoutBtn {
+	color: red;
+}
+
+input, button {
+	border-radius: 9px;
+	border-style: hidden;
+}
